@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bWfH7CCiVuspuakLLW3Qpq0WVX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/udemy" />
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/vmukhov/Desktop/com.udemy/src/test/java/resources/testng.xml">
+    <configuration name="RegistrationPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.RegistrationPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPageTest.loginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.RegistrationPageTest" />
+      <option name="METHOD_NAME" value="loginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/vmukhov/Desktop/com.udemy/src/test/java/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.udemy" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/vmukhov/Desktop/com.udemy/src/test/java/resources/testng.xml" />
+        <item itemvalue="TestNG.RegistrationPageTest" />
+        <item itemvalue="TestNG.RegistrationPageTest.loginWithValidCredentials" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="" />
+      <created>1588752679995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588752679995</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2613" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588843132339">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state x="2613" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588843132339" />
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1588852964836">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964836" />
+    <state width="1872" height="272" key="GridCell.Tab.0.center" timestamp="1588852964835">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964835" />
+    <state width="1872" height="272" key="GridCell.Tab.0.left" timestamp="1588852964834">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964834" />
+    <state width="1872" height="272" key="GridCell.Tab.0.right" timestamp="1588852964835">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964835" />
+    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588853092807">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588853092807" />
+  </component>
+</project>
