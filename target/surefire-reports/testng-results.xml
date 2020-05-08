@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-08T11:13:19 EEST" name="UdemyWeb" finished-at="2020-05-08T11:13:41 EEST" duration-ms="21838">
+  <suite started-at="2020-05-08T11:36:20 EEST" name="UdemyWeb" finished-at="2020-05-08T11:36:42 EEST" duration-ms="22134">
     <groups>
     </groups>
-    <test started-at="2020-05-08T11:13:19 EEST" name="Registration tests" finished-at="2020-05-08T11:13:41 EEST" duration-ms="21838">
+    <test started-at="2020-05-08T11:36:20 EEST" name="Registration tests" finished-at="2020-05-08T11:36:42 EEST" duration-ms="22134">
       <class name="com.udemy.RegistrationPageTest">
-        <test-method signature="registrationWithValidCredentials()[pri:0, instance:com.udemy.RegistrationPageTest@56de5251]" started-at="2020-05-08T11:13:19 EEST" name="registrationWithValidCredentials" description="Registration With Valid Credentials" finished-at="2020-05-08T11:13:41 EEST" duration-ms="21785" status="PASS">
+        <test-method signature="registrationWithValidCredentials()[pri:0, instance:com.udemy.RegistrationPageTest@56de5251]" started-at="2020-05-08T11:36:20 EEST" name="registrationWithValidCredentials" description="Registration With Valid Credentials" finished-at="2020-05-08T11:36:42 EEST" duration-ms="22085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidCredentials -->

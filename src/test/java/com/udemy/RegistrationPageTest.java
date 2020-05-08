@@ -53,7 +53,7 @@ public class RegistrationPageTest {
 
         WebElement signUpButn = driver.findElement(By.id("submit-id-submit"));
         signUpButn.click();
-        pause(3000);
+        pause(5000);
 
         Actions builder = new Actions(driver);
         WebElement userProfile = driver.findElement(By.xpath("//*[@class='dropdown--open-on-hover dropdown--user dropdown--open-on-hover dropdown']"));
