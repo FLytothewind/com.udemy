@@ -3,7 +3,7 @@
 <suite name="UdemyWeb">
     <test name="Registration tests">
         <classes>
-            <class name="com.udemy.RegistrationPageTest">
+            <class name="com.udemy.RegistrationTest">
                 <methods>
                     <include name="registrationWithValidCredentials"/>
                 </methods>

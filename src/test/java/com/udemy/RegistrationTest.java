@@ -13,7 +13,7 @@ import java.util.UUID;
 import java.io.File;
 
 
-public class RegistrationPageTest {
+public class RegistrationTest {
 
     @Test(description = "Registration With Valid Credentials")
     public void registrationWithValidCredentials() {

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="">
+    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="New commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.udemy.RegistrationPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.udemy.RegistrationPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.udemy.RegistrationPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/RegistrationPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +39,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bWfH7CCiVuspuakLLW3Qpq0WVX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/test/java/com/udemy" />
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
@@ -120,10 +132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588925917717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New commit">
+      <created>1588927093830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588927093830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New commit" />
     <option name="LAST_COMMIT_MESSAGE" value="New commit" />
   </component>
@@ -132,10 +152,10 @@
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state x="2613" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588843132339" />
-    <state x="2522" y="127" key="CommitChangelistDialog2" timestamp="1588925917281">
+    <state x="2522" y="127" key="CommitChangelistDialog2" timestamp="1589266888881">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
-    <state x="2522" y="127" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588925917281" />
+    <state x="2522" y="127" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1589266888881" />
     <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1588852964836">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
@@ -152,9 +172,10 @@
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964835" />
-    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588853092807">
-      <screen x="1920" y="23" width="1920" height="1003" />
+    <state x="2570" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1589357343270">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="2570" y="375" key="com.intellij.ide.util.TipDialog/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589357343270" />
     <state x="2570" y="357" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588853092807" />
   </component>
 </project>
