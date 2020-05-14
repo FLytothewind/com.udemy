@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.UUID;
@@ -13,72 +15,69 @@ import java.util.UUID;
 import java.io.File;
 
 
-public class RegistrationTest {
+public class RegistrationTest extends TestBase{
 
     @Test(description = "Registration With Valid Credentials")
     public void registrationWithValidCredentials() {
-        File chromeDriver = new File("src/main/resources/chromedriver");
-        ChromeDriverService chromeService = new ChromeDriverService.Builder()
-                .usingDriverExecutable(chromeDriver)
-                .usingAnyFreePort()
-                .build();
+
+        By registerBtnLocator = By.xpath("//*[@data-purpose='header-signup']");
+        By checkSignUpHeaderLocator = By.xpath("//*[@class=' loginbox-v4__header loginbox-v4__header--signup']");
+        By nameFieldLocator = By.id("id_fullname");
+        By randomEmailLocator = By.xpath("//*[@type='email']");
+        By passwordFieldLocator = By.id("password");
+        By signUpBtnLocator = By.id("submit-id-submit");
+        By userProfileLocator = By.xpath("//*[@data-purpose='user-dropdown']");
+        By logoutBtnLocator = By.xpath("//*[@data-purpose='do-logout']");
 
 
 
-        WebDriver driver = new ChromeDriver(chromeService);
         driver.get("https://www.udemy.com/");
-        pause(3000);
+
+        driver.manage().deleteAllCookies();
+        driver.navigate().refresh();
 
 
-        WebElement registerButton = driver.findElement(
-                By.xpath("//*[@data-purpose='header-signup']"));
-        registerButton.click();
-        pause(2000);
+        wait.until(ExpectedConditions.elementToBeClickable(registerBtnLocator));
+        WebElement registerBtn = driver.findElement(registerBtnLocator);
+        registerBtn.click();
 
-        WebElement checkSignUpHeader = driver.findElement(
-                By.xpath("//*[@class=' loginbox-v4__header loginbox-v4__header--signup']"));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(checkSignUpHeaderLocator));
+        WebElement checkSignUpHeader = driver.findElement(checkSignUpHeaderLocator);
         Assert.assertEquals(checkSignUpHeader.getText(), "Sign Up and Start Learning!");
 
-        WebElement nameField = driver.findElement(By.id("id_fullname"));
+        WebElement nameField = driver.findElement(nameFieldLocator);
         nameField.clear();
         nameField.sendKeys("Jimbo");
 
         final String randomEmail = randomEmail();
-        WebElement emailField = driver.findElement(By.xpath("//*[@type='email']"));
+        WebElement emailField = driver.findElement(randomEmailLocator);
         emailField.clear();
         emailField.sendKeys(randomEmail);
 
-        WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("qwerty1234");
+        WebElement passwordField = driver.findElement(passwordFieldLocator);
+        passwordField.sendKeys("qwerty1234qwerty");
 
-        WebElement signUpButn = driver.findElement(By.id("submit-id-submit"));
-        signUpButn.click();
-        pause(5000);
+        WebElement signUpBtn = driver.findElement(signUpBtnLocator);
+        signUpBtn.click();
 
+        wait.until(ExpectedConditions.elementToBeClickable(userProfileLocator));
         Actions builder = new Actions(driver);
-        WebElement userProfile = driver.findElement(By.xpath("//*[@class='dropdown--open-on-hover dropdown--user dropdown--open-on-hover dropdown']"));
+        WebElement userProfile = driver.findElement(userProfileLocator);
         builder.moveToElement(userProfile).build().perform();
 
-        WebElement logoutBtn = driver.findElement(By.xpath("//*[@data-purpose='do-logout']"));
+
+        WebElement logoutBtn = driver.findElement(logoutBtnLocator);
         Assert.assertEquals(logoutBtn.getText(), "Log out");
         logoutBtn.click();
 
 
-        driver.quit();
+
     }
 
     public static String randomEmail() {
         return "random-" + UUID.randomUUID().toString() + "@appcreative.net";
     }
 
-    private  void pause(int milis){
-        try {
-            Thread.sleep(milis);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-
-    }
 
 }

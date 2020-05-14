@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="UdemyWeb">
+
+    <test name="Login tests">
+        <classes>
+            <class name="com.udemy.LoginTest">
+                <methods>
+                    <include name="LoginWithCookies"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
     <test name="Registration tests">
         <classes>
             <class name="com.udemy.RegistrationTest">
@@ -10,4 +21,7 @@
             </class>
         </classes>
     </test>
+
+
+
 </suite>
