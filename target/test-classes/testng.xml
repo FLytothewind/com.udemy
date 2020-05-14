@@ -2,6 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="UdemyWeb">
 
+    <test name="Registration tests">
+        <classes>
+            <class name="com.udemy.RegistrationTest">
+                <methods>
+                    <include name="registrationWithValidCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
     <test name="Login tests">
         <classes>
             <class name="com.udemy.LoginTest">
@@ -12,15 +22,7 @@
         </classes>
     </test>
 
-    <test name="Registration tests">
-        <classes>
-            <class name="com.udemy.RegistrationTest">
-                <methods>
-                    <include name="registrationWithValidCredentials"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+
 
 
 

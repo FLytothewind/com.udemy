@@ -18,7 +18,7 @@ public class LoginTest extends TestBase {
         By logInBtnLocator = By.xpath("//*[@data-purpose='header-login']");
         By userProfileLocator = By.xpath("//*[@data-purpose='user-dropdown']");
         By userNameLocator = By.xpath("//*[@class='text-midnight ellipsis']");
-        By logoutBtnLocator = By.xpath("//*[@data-purpose='do-logout']");
+
 
 
         driver.get("https://www.udemy.com/");
@@ -38,9 +38,7 @@ public class LoginTest extends TestBase {
         WebElement userName = driver.findElement(userNameLocator);
         Assert.assertEquals(userName.getText(), "Jordano");
 
-        WebElement logoutBtn = driver.findElement(logoutBtnLocator);
-        Assert.assertEquals(logoutBtn.getText(), "Log out");
-        logoutBtn.click();
+
 
 
 

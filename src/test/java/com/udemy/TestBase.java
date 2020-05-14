@@ -27,7 +27,7 @@ public class TestBase {
                 .usingAnyFreePort()
                 .build();
 
-                 cookie = new Cookie.Builder("dj_session_id", "5gup515z9rqmuiszqm0bg5aeqv3usv0s")
+                 cookie = new Cookie.Builder("dj_session_id", "fzwb5qpsg497bdbpku5os8ewcqmx8ane")
                 .domain("www.udemy.com")
                 .path("/")
                 .build();
