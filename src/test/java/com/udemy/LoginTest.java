@@ -15,28 +15,16 @@ public class LoginTest extends TestBase {
     @Test(description = "Login With Cookies")
     public void LoginWithCookies() {
 
-        By logInBtnLocator = By.xpath("//*[@data-purpose='header-login']");
-        By userProfileLocator = By.xpath("//*[@data-purpose='user-dropdown']");
-        By userNameLocator = By.xpath("//*[@class='text-midnight ellipsis']");
-
-
-
-        driver.get("https://www.udemy.com/");
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(logInBtnLocator));
-        WebElement loginBtn = driver.findElement(logInBtnLocator);
-        Assert.assertEquals(loginBtn.getText(), "Log In");
+        homePage.openHomePage();
+        Assert.assertEquals(loginPopup.checkLogInBtn(), "Log In");
 
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
 
-        wait.until(ExpectedConditions.elementToBeClickable(userProfileLocator));
-        Actions builder = new Actions(driver);
-        WebElement userProfile = driver.findElement(userProfileLocator);
-        builder.moveToElement(userProfile).build().perform();
+        homePage.getProfileName();
 
-        WebElement userName = driver.findElement(userNameLocator);
-        Assert.assertEquals(userName.getText(), "Jordano");
+        Assert.assertEquals(loginPopup.checkUserName(), "Jordano");
+        homePage.clickLogout();
 
 
 

@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="">
+    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="Cahnge Login test/change testng file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/LoginPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/RegisterPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/SearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/CategoriesMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/RegistrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/UdemyWeb/Registration tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/Registration tests.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/Registration tests.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,7 +62,24 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTest">
+  <component name="RunManager" selected="TestNG.SearchTest">
+    <configuration name="CategoriesMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.CategoriesMenuTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.udemy" />
       <extension name="coverage">
@@ -69,41 +90,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.udemy" />
       <option name="MAIN_CLASS_NAME" value="com.udemy.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.LoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.udemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.LoginTest" />
-      <option name="METHOD_NAME" value="LoginWithValidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.udemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.RegistrationPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -128,10 +114,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/vmukhov/Desktop/com.udemy/src/test/java/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.registrationWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.udemy" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.RegistrationTest" />
+      <option name="METHOD_NAME" value="registrationWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.SearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.SearchTest" />
+        <item itemvalue="TestNG.CategoriesMenuTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.LoginWithValidCredentials" />
-        <item itemvalue="TestNG./Users/vmukhov/Desktop/com.udemy/src/test/java/resources/testng.xml" />
-        <item itemvalue="TestNG.RegistrationPageTest" />
+        <item itemvalue="TestNG.RegistrationTest.registrationWithValidCredentials" />
+        <item itemvalue="TestNG.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589445789719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cahnge Login test/change testng file">
+      <created>1589446536070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589446536070</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,46 +213,76 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="Testng fux" />
     <MESSAGE value="Add new Login test/Fix Registration test/Create Testbase file/change gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new Login test/Fix Registration test/Create Testbase file/change gitignore" />
+    <MESSAGE value="Cahnge Login test/change testng file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cahnge Login test/change testng file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2026" y="123" width="1714" height="803" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590411956704">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2026" y="123" width="1714" height="803" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590411956704" />
     <state x="2613" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588843132339">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state x="2613" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588843132339" />
-    <state x="2690" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1589439055064">
-      <screen x="1920" y="23" width="1920" height="1057" />
+    <state x="770" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1590055918174">
+      <screen x="0" y="23" width="1920" height="1003" />
     </state>
+    <state x="770" y="230" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590055918174" />
     <state x="2690" y="241" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589439055064" />
-    <state x="2522" y="133" key="CommitChangelistDialog2" timestamp="1589445789188">
+    <state x="2522" y="133" key="CommitChangelistDialog2" timestamp="1589447085141">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="2522" y="133" key="CommitChangelistDialog2/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589445789188" />
+    <state x="2522" y="133" key="CommitChangelistDialog2/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589447085141" />
     <state x="2522" y="127" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1589266888881" />
-    <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1589445617196">
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1590496289895">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1589443249053" />
-    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589445617196" />
+    <state width="1872" height="336" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185664" />
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590496289895" />
     <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964836" />
-    <state width="1872" height="272" key="GridCell.Tab.0.center" timestamp="1589445617195">
+    <state width="1872" height="272" key="GridCell.Tab.0.center" timestamp="1590496289891">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1589443249052" />
-    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589445617195" />
+    <state width="1872" height="336" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185661" />
+    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590496289891" />
     <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964835" />
-    <state width="1872" height="272" key="GridCell.Tab.0.left" timestamp="1589445617195">
+    <state width="1872" height="272" key="GridCell.Tab.0.left" timestamp="1590496289889">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1589443249051" />
-    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589445617195" />
+    <state width="1872" height="336" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185658" />
+    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590496289889" />
     <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964834" />
-    <state width="1872" height="272" key="GridCell.Tab.0.right" timestamp="1589445617196">
+    <state width="1872" height="272" key="GridCell.Tab.0.right" timestamp="1590496289893">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1589443249053" />
-    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1589445617196" />
+    <state width="1872" height="336" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185664" />
+    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590496289893" />
     <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1588852964835" />
+    <state width="1872" height="336" key="GridCell.Tab.1.bottom" timestamp="1590412116885">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.bottom/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057196938" />
+    <state width="1872" height="336" key="GridCell.Tab.1.bottom/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590412116885" />
+    <state width="1872" height="336" key="GridCell.Tab.1.center" timestamp="1590412116883">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.center/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057196936" />
+    <state width="1872" height="336" key="GridCell.Tab.1.center/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590412116883" />
+    <state width="1872" height="336" key="GridCell.Tab.1.left" timestamp="1590412116880">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.left/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057196935" />
+    <state width="1872" height="336" key="GridCell.Tab.1.left/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590412116880" />
+    <state width="1872" height="336" key="GridCell.Tab.1.right" timestamp="1590412116884">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.right/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057196937" />
+    <state width="1872" height="336" key="GridCell.Tab.1.right/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590412116884" />
+    <state x="466" y="163" key="SettingsEditor" timestamp="1590055910663">
+      <screen x="0" y="23" width="1920" height="1003" />
+    </state>
+    <state x="466" y="163" key="SettingsEditor/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590055910663" />
     <state x="2570" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1589357343270">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
