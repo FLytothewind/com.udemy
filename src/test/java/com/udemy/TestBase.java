@@ -37,7 +37,7 @@ public class TestBase {
                 .usingAnyFreePort()
                 .build();
 
-                 cookie = new Cookie.Builder("dj_session_id", "kkfhowl8ac1i7qyv50o6rom6ukgfv4n4")//For the test, you need to take active cookies of the existing logged in user
+                 cookie = new Cookie.Builder("dj_session_id", "e8ndlzz1ncy8qrlrul5ohbq0nbhl2j4z")//For the test, you need to take active cookies of the existing logged in user
                 .domain("www.udemy.com")
                 .path("/")
                 .build();
@@ -52,7 +52,7 @@ public class TestBase {
         loginPopup = new LoginPopup(driver, wait);
         searchResultsPage = new SearchResultsPage(driver, wait);
     }
-
+//
 //    @AfterMethod(description = "Close browser")
 //    public void closeBrowser() {
 //        driver.quit();

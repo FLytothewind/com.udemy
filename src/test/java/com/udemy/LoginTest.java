@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends TestBase {
 
     @Test(description = "Login With Cookies")
-    public void LoginWithCookies() {
+    public void loginWithCookies() {
 
         homePage.openHomePage();
         Assert.assertEquals(loginPopup.checkLogInBtn(), "Log In");
@@ -21,7 +21,8 @@ public class LoginTest extends TestBase {
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
 
-        homePage.getProfileName();
+
+        homePage.navigateToProfileName();
 
         Assert.assertEquals(loginPopup.checkUserName(), "Jordano");
         homePage.clickLogout();

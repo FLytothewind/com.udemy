@@ -16,6 +16,8 @@ import java.util.UUID;
 
 import java.io.File;
 
+import static com.udemy.testdata.UserData.newUser;
+
 
 public class RegistrationTest extends TestBase{
 
@@ -27,11 +29,11 @@ public class RegistrationTest extends TestBase{
         homePage.openHomePage();
         registerPopup.openRegisterPopup();
         Assert.assertEquals(registerPopup.checkRegisterHeader(), "Sign Up and Start Learning!");
-        registerPopup.enterName("Jimbo");
-        registerPopup.enterEmail(utils.getEMAIL_FOR_REGISTER());
-        registerPopup.enterPassword("Qwerty1234");
+        registerPopup.enterName(newUser.getName());
+        registerPopup.enterEmail(utils.getEmailForRegister());
+        registerPopup.enterPassword(newUser.getPassword());
         registerPopup.clickRegisterBtn();
-        homePage.getProfileName();
+        homePage.navigateToProfileName();
         homePage.clickLogout();
 
 

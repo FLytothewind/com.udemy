@@ -6,16 +6,16 @@ import org.testng.annotations.Test;
 public class SearchTest extends TestBase {
 
     @Test(description = "Search some text")
-    public void Search() {
+    public void searchSome() {
 
         homePage.openHomePage();
-        Assert.assertEquals(homePage.checkSearchField(), "What do you want to learn?");
-        homePage.enterTextInField(utils.getSEARCH_TEXT());
+        Assert.assertEquals(homePage.checkSearchField(), "Search for anything");
+        homePage.enterTextInField(utils.getSearchText());
         homePage.clickSearchFieldBtn();
-        Assert.assertTrue(searchResultsPage.checkResults().contains(utils.getSEARCH_TEXT().toLowerCase()));
+        Assert.assertTrue(searchResultsPage.checkResults().contains(utils.getSearchText().toLowerCase()));
         Assert.assertFalse(!driver.getCurrentUrl().contains("ref=home"));
-        Assert.assertEquals(searchResultsPage.checkHeaderSearchFieldResults(), utils.getSEARCH_TEXT());
-        Assert.assertTrue(searchResultsPage.checkFirstResultElement().toLowerCase().contains(utils.getSEARCH_TEXT().toLowerCase()));
+        Assert.assertEquals(searchResultsPage.checkHeaderSearchFieldResults(), utils.getSearchText());
+        Assert.assertTrue(searchResultsPage.checkFirstResultElement().toLowerCase().contains(utils.getSearchText().toLowerCase()));
 
 
 

@@ -15,7 +15,7 @@ public class LoginPopup {
         this.wait = wait;
     }
 
-    By logInBtnLocator = By.xpath("//*[@data-purpose='header-login']");
+    By logInBtnLocator = By.xpath("//*[@data-purpose='header-login' or @class='udlite-btn udlite-btn-small udlite-btn-secondary udlite-heading-sm']");
     By userNameLocator = By.xpath("//*[@class='text-midnight ellipsis']");
 
     public String checkLogInBtn() {
@@ -25,6 +25,7 @@ public class LoginPopup {
     }
 
     public String checkUserName() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameLocator));
         WebElement userName = driver.findElement(userNameLocator);
         return userName.getText();
     }

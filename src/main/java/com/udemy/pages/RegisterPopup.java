@@ -18,7 +18,7 @@ public class RegisterPopup {
         this.wait = wait;
     }
 
-    By registerBtnLocator = By.xpath("//*[@data-purpose='header-signup']");
+    By registerBtnLocator = By.xpath("//*[@data-purpose='header-signup' or @class='udlite-btn udlite-btn-small udlite-btn-primary udlite-heading-sm']");
     By checkSignUpHeaderLocator = By.xpath("//*[@class=' loginbox-v4__header loginbox-v4__header--signup']");
     By nameFieldLocator = By.id("id_fullname");
     By randomEmailLocator = By.xpath("//*[@type='email']");

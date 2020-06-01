@@ -12,16 +12,35 @@
         </classes>
     </test>
 
-    <test name="Login tests">
+<!--    <test name="Login tests">-->
+<!--        <classes>-->
+<!--            <class name="com.udemy.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="loginWithCookies"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Categories Menu Test">
+    <classes>
+        <class name="com.udemy.CategoriesMenuTest">
+            <methods>
+                <include name="checkCategories"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+    <test name="Search Test">
         <classes>
-            <class name="com.udemy.LoginTest">
+            <class name="com.udemy.SearchTest">
                 <methods>
-                    <include name="LoginWithCookies"/>
+                    <include name="searchSome"/>
                 </methods>
             </class>
         </classes>
     </test>
-
 
 
 
