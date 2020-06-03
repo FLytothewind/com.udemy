@@ -30,7 +30,7 @@ public class RegistrationTest extends TestBase{
         registerPopup.openRegisterPopup();
         Assert.assertEquals(registerPopup.checkRegisterHeader(), "Sign Up and Start Learning!");
         registerPopup.enterName(newUser.getName());
-        registerPopup.enterEmail(utils.getEmailForRegister());
+        registerPopup.enterEmail(newUser.getEmailForRegister());
         registerPopup.enterPassword(newUser.getPassword());
         registerPopup.clickRegisterBtn();
         homePage.navigateToProfileName();
