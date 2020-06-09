@@ -9,11 +9,11 @@ public class SearchTest extends TestBase {
     public void searchSome() {
 
         homePage.openHomePage();
-        Assert.assertEquals(homePage.checkSearchField(), "Search for anything");
+        Assert.assertEquals(homePage.checkSearchField(), utils.getSearchFieldPlaceholder());
         homePage.enterTextInField(utils.getSearchText());
         homePage.clickSearchFieldBtn();
         Assert.assertTrue(searchResultsPage.checkResults().contains(utils.getSearchText().toLowerCase()));
-        Assert.assertFalse(!driver.getCurrentUrl().contains("ref=home"));
+        Assert.assertFalse(!driver.getCurrentUrl().contains("search"));
         Assert.assertEquals(searchResultsPage.checkHeaderSearchFieldResults(), utils.getSearchText());
         Assert.assertTrue(searchResultsPage.checkFirstResultElement().toLowerCase().contains(utils.getSearchText().toLowerCase()));
 

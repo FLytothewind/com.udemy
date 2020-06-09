@@ -31,7 +31,7 @@ public class HomePage {
 //    By lastCategoryLocator = By.xpath("(//ul[@class='dropdown-menu' and @aria-labelledby='header.browse']//span[@class='fx'])[13]");
 //    String categoriesTemplateXpath = "(//ul[@class='dropdown-menu' and @aria-labelledby='header.browse']//span[@class='fx'])";
     By mainCategoryLocator = By.xpath("//*[@class='menu__link' or @class='udlite-btn udlite-btn-large udlite-btn-ghost udlite-heading-md list-menu--item--1crtM udlite-block-list-item udlite-block-list-item-small udlite-text-sm udlite-block-list-item-neutral']");
-
+    By logoutAlertLocator = By.xpath("//*[@class='with-icon alert alert-success']");
 
     public void openHomePage(){
         driver.get("https://www.udemy.com/");
@@ -47,6 +47,7 @@ public class HomePage {
     }
 
     public void clickLogout() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(logoutBtnLocator));
         WebElement logoutBtn = driver.findElement(logoutBtnLocator);
         logoutBtn.click();
     }
@@ -90,6 +91,12 @@ public class HomePage {
     public List<String> getMainCategoriesNames() {
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(mainCategoryLocator))
                 .stream().map(WebElement::getText).collect(Collectors.toList());
+    }
+
+    public String checkLogoutAlert() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(logoutAlertLocator));
+        WebElement logoutAlert = driver.findElement(logoutAlertLocator);
+        return logoutAlert.getText();
     }
 
 

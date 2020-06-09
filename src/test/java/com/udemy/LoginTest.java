@@ -16,7 +16,7 @@ public class LoginTest extends TestBase {
     public void loginWithCookies() {
 
         homePage.openHomePage();
-        Assert.assertEquals(loginPopup.checkLogInBtn(), "Log In");
+        Assert.assertEquals(loginPopup.checkLogInBtn(), utils.getLoginBtnText());
 
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
@@ -24,7 +24,7 @@ public class LoginTest extends TestBase {
 
         homePage.navigateToProfileName();
 
-        Assert.assertEquals(loginPopup.checkUserName(), "Jordano");
+        Assert.assertEquals(loginPopup.checkUserName(), utils.getLoginUserNameText());
         homePage.clickLogout();
 
 

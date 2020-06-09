@@ -52,9 +52,9 @@ public class TestBase {
         loginPopup = new LoginPopup(driver, wait);
         searchResultsPage = new SearchResultsPage(driver, wait);
     }
-//
-//    @AfterMethod(description = "Close browser")
-//    public void closeBrowser() {
-//        driver.quit();
-//    }
+
+    @AfterMethod(description = "Close browser")
+    public void closeBrowser() {
+        driver.quit();
+    }
 }

@@ -28,13 +28,14 @@ public class RegistrationTest extends TestBase{
 
         homePage.openHomePage();
         registerPopup.openRegisterPopup();
-        Assert.assertEquals(registerPopup.checkRegisterHeader(), "Sign Up and Start Learning!");
+        Assert.assertEquals(registerPopup.checkRegisterHeader(), utils.getRegisterHeaderText());
         registerPopup.enterName(newUser.getName());
         registerPopup.enterEmail(newUser.getEmailForRegister());
         registerPopup.enterPassword(newUser.getPassword());
         registerPopup.clickRegisterBtn();
         homePage.navigateToProfileName();
         homePage.clickLogout();
+        Assert.assertEquals(homePage.checkLogoutAlert(), utils.getLogoutAlertText());
 
 
 
