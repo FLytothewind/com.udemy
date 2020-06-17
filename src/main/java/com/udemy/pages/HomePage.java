@@ -32,10 +32,13 @@ public class HomePage {
 //    String categoriesTemplateXpath = "(//ul[@class='dropdown-menu' and @aria-labelledby='header.browse']//span[@class='fx'])";
     By mainCategoryLocator = By.xpath("//*[@class='menu__link' or @class='udlite-btn udlite-btn-large udlite-btn-ghost udlite-heading-md list-menu--item--1crtM udlite-block-list-item udlite-block-list-item-small udlite-text-sm udlite-block-list-item-neutral']");
     By logoutAlertLocator = By.xpath("//*[@class='with-icon alert alert-success']");
+    By businessLinkLocator = By.xpath("//*[@class='dropdown--ufb zero-state dropdown--open-on-hover dropdown' or @class='header--gap-sm--2PR4A header--try-ufb--1kzro popover--popover--t3rNO popover--popover-hover--14ngr']");
+//    By teachLinkLocator = By.xpath("//*[@class='header--gap-sm--2PR4A header--try-ufb--1kzro udlite-popover-open popover--popover--t3rNO popover--popover-hover--14ngr' or @class='dropdown--open-on-hover dropdown--instructor zero-state dropdown--open-on-hover dropdown']");
 
     public void openHomePage(){
         driver.get("https://www.udemy.com/");
     }
+
 
 
 
@@ -98,6 +101,18 @@ public class HomePage {
         WebElement logoutAlert = driver.findElement(logoutAlertLocator);
         return logoutAlert.getText();
     }
+
+    public void clickBusinessLink() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(businessLinkLocator));
+        WebElement businessLink = driver.findElement(businessLinkLocator);
+        businessLink.click();
+    }
+
+//    public void clickTeachLink() {
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(teachLinkLocator));
+//        WebElement teachLink = driver.findElement(teachLinkLocator);
+//        teachLink.click();
+//    }
 
 
 

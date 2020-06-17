@@ -1,10 +1,7 @@
 package com.udemy;
 
 import Config.Utils;
-import com.udemy.pages.HomePage;
-import com.udemy.pages.LoginPopup;
-import com.udemy.pages.RegisterPopup;
-import com.udemy.pages.SearchResultsPage;
+import com.udemy.pages.*;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,6 +22,8 @@ public class TestBase {
     RegisterPopup registerPopup;
     LoginPopup loginPopup;
     SearchResultsPage searchResultsPage;
+    BusinessPage businessPage;
+    TeachPage teachPage;
 
 
     @BeforeMethod(description = "Open browser")
@@ -51,10 +50,13 @@ public class TestBase {
         registerPopup = new RegisterPopup(driver, wait);
         loginPopup = new LoginPopup(driver, wait);
         searchResultsPage = new SearchResultsPage(driver, wait);
+        businessPage = new BusinessPage(driver, wait);
+        teachPage = new TeachPage(driver, wait);
+
     }
 
-    @AfterMethod(description = "Close browser")
+   @AfterMethod(description = "Close browser")
     public void closeBrowser() {
-        driver.quit();
+       driver.quit();
     }
 }

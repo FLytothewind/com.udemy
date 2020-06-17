@@ -12,8 +12,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-    @Test(description = "Login With Cookies")
-    public void loginWithCookies() {
+        @Test(description = "Login With Cookies")
+        public void loginWithCookies() {
 
         homePage.openHomePage();
         Assert.assertEquals(loginPopup.checkLogInBtn(), utils.getLoginBtnText());
