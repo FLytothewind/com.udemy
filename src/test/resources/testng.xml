@@ -22,25 +22,25 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Categories Menu Test">
-    <classes>
-        <class name="com.udemy.CategoriesMenuTest">
-            <methods>
-                <include name="checkCategories"/>
-            </methods>
-        </class>
-    </classes>
-</test>
+<!--    <test name="Categories Menu Test">-->
+<!--    <classes>-->
+<!--        <class name="com.udemy.CategoriesMenuTest">-->
+<!--            <methods>-->
+<!--                <include name="checkCategories"/>-->
+<!--            </methods>-->
+<!--        </class>-->
+<!--    </classes>-->
+<!--</test>-->
 
-    <test name="Search Test">
-        <classes>
-            <class name="com.udemy.SearchTest">
-                <methods>
-                    <include name="searchSome"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test name="Search Test">-->
+<!--        <classes>-->
+<!--            <class name="com.udemy.SearchTest">-->
+<!--                <methods>-->
+<!--                    <include name="searchSome"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Check  Business and Teach Links Test">
         <classes>

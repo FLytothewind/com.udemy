@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
-import java.sql.Date;
+
 
 public class TestBase {
     WebDriver driver;
@@ -24,6 +24,7 @@ public class TestBase {
     SearchResultsPage searchResultsPage;
     BusinessPage businessPage;
     TeachPage teachPage;
+    ProfilePage profilePage;
 
 
     @BeforeMethod(description = "Open browser")
@@ -36,7 +37,7 @@ public class TestBase {
                 .usingAnyFreePort()
                 .build();
 
-                 cookie = new Cookie.Builder("dj_session_id", "e8ndlzz1ncy8qrlrul5ohbq0nbhl2j4z")//For the test, you need to take active cookies of the existing logged in user
+                 cookie = new Cookie.Builder("dj_session_id", "xt07vsonl9o409sbheaxvst932wo3t9f")//For the test, you need to take active cookies of the existing logged in user
                 .domain("www.udemy.com")
                 .path("/")
                 .build();
@@ -52,11 +53,12 @@ public class TestBase {
         searchResultsPage = new SearchResultsPage(driver, wait);
         businessPage = new BusinessPage(driver, wait);
         teachPage = new TeachPage(driver, wait);
+        profilePage = new ProfilePage(driver, wait);
 
     }
 
-   @AfterMethod(description = "Close browser")
-    public void closeBrowser() {
-       driver.quit();
-    }
+//   @AfterMethod(description = "Close browser")
+//    public void closeBrowser() {
+//       driver.quit();
+//    }
 }

@@ -2,6 +2,3 @@
 .allure
 target/
 com.udemy.iml
-Utils.java
-UserData.java
-User.java

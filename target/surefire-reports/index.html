@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-UdemyWeb" class="navigator-link">
-              <span class="suite-name border-passed">UdemyWeb</span>
+              <span class="suite-name border-failed">UdemyWeb</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-UdemyWeb" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,31 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-UdemyWeb" class="hide-methods passed suite-UdemyWeb"> (hide)</a> <!-- hide-methods passed suite-UdemyWeb -->
-                      <a href="#" panel-name="suite-UdemyWeb" class="show-methods passed suite-UdemyWeb"> (show)</a> <!-- show-methods passed suite-UdemyWeb -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UdemyWeb" class="hide-methods failed suite-UdemyWeb"> (hide)</a> <!-- hide-methods failed suite-UdemyWeb -->
+                      <a href="#" panel-name="suite-UdemyWeb" class="show-methods failed suite-UdemyWeb"> (show)</a> <!-- show-methods failed suite-UdemyWeb -->
                     </span>
-                    <div class="method-list-content passed suite-UdemyWeb">
+                    <div class="method-list-content failed suite-UdemyWeb">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-UdemyWeb" title="com.udemy.CategoriesMenuTest" class="method navigator-link" hash-for-method="checkCategories">checkCategories</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-UdemyWeb" title="com.udemy.CheckLinksTest" class="method navigator-link" hash-for-method="checkLinks">checkLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-UdemyWeb" title="com.udemy.SearchTest" class="method navigator-link" hash-for-method="searchSome">searchSome</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-UdemyWeb -->
+                    </div> <!-- method-list-content failed suite-UdemyWeb -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,26 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-UdemyWeb" class="panel UdemyWeb">
-          <div class="suite-UdemyWeb-class-passed">
+          <div class="suite-UdemyWeb-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.udemy.CategoriesMenuTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkCategories">
-                  </a> <!-- checkCategories -->
-                  <span class="method-name">checkCategories</span>
-                  <em>
-(Testing of categories in the Categories menu)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-UdemyWeb-class-passed -->
-          <div class="suite-UdemyWeb-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.udemy.CheckLinksTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -155,29 +128,17 @@
                   <a name="checkLinks">
                   </a> <!-- checkLinks -->
                   <span class="method-name">checkLinks</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.udemy.CheckLinksTest.checkLinks(CheckLinksTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Check  Business and Teach Links)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-UdemyWeb-class-passed -->
-          <div class="suite-UdemyWeb-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.udemy.SearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchSome">
-                  </a> <!-- searchSome -->
-                  <span class="method-name">searchSome</span>
-                  <em>
-(Search some text)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-UdemyWeb-class-passed -->
+          </div> <!-- suite-UdemyWeb-class-failed -->
         </div> <!-- panel UdemyWeb -->
         <div panel-name="test-xml-UdemyWeb" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -188,24 +149,6 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;UdemyWeb&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Categories Menu Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.udemy.CategoriesMenuTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;checkCategories&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.udemy.CategoriesMenuTest --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Categories Menu Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Search Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.udemy.SearchTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;searchSome&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.udemy.SearchTest --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Search Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Check  Business and Teach Links Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.udemy.CheckLinksTest&quot;&gt;
@@ -225,12 +168,6 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">Categories Menu Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Search Test (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">Check  Business and Teach Links Test (1 class)</span>
               </li>
@@ -258,24 +195,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkLinks')
 data.setCell(0, 2, 'com.udemy.CheckLinksTest')
-data.setCell(0, 3, 11682);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchSome')
-data.setCell(1, 2, 'com.udemy.SearchTest')
-data.setCell(1, 3, 6964);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkCategories')
-data.setCell(2, 2, 'com.udemy.CategoriesMenuTest')
-data.setCell(2, 3, 4567);
+data.setCell(0, 3, 4273);
 window.suiteTableData['UdemyWeb']= { tableData: data, tableDiv: 'times-div-UdemyWeb'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-UdemyWeb">
               </div> <!-- times-div-UdemyWeb -->
             </div> <!-- times-div -->
@@ -301,49 +230,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.udemy.CategoriesMenuTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.udemy.CheckLinksTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkCategories</span>
-                <span class="method-start">2913 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">7482 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.udemy.SearchTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">7715 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchSome</span>
-                <span class="method-start">9400 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">16365 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.udemy.CheckLinksTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">16509 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkLinks</span>
-                <span class="method-start">18143 ms</span>
+                <span class="method-start">3428 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">29826 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

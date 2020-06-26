@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/BusinessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/TeachPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/CheckLinksTest.java" afterDir="false" />
+    <list default="true" id="363bbc56-c6a8-4ee0-99d2-251796906b30" name="Default Changelist" comment="Create new test for link checking/Refactoring tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/ChangeNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/constants/BaseConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/constants/BaseConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/pages/LoginPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/LoginPopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/pages/RegisterPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/RegisterPopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udemy/pages/TeachPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/pages/TeachPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/CheckLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/CheckLinksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods-not-run.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/UdemyWeb/toc.html" afterDir="false" />
@@ -71,7 +73,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.CheckLinksTest">
-    <configuration name="CategoriesMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangeNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.udemy" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +82,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.udemy" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.CategoriesMenuTest" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.ChangeNameTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CheckLinksTest" />
-        <item itemvalue="TestNG.RegistrationTest" />
         <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.CategoriesMenuTest" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.ChangeNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591687075882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create new test for link checking/Refactoring tests">
+      <created>1592402368397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592402368397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,7 +262,8 @@
     <MESSAGE value="Change user model/Fix Array list/Add Xpath fo second design/Fixes" />
     <MESSAGE value="Moving email random generation to the user models" />
     <MESSAGE value="Refactoring tests/hide texts in tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring tests/hide texts in tests" />
+    <MESSAGE value="Create new test for link checking/Refactoring tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new test for link checking/Refactoring tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2026" y="123" width="1714" height="803" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590653878389">
@@ -270,35 +280,39 @@
     </state>
     <state x="770" y="230" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590055918174" />
     <state x="2690" y="241" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590997574265" />
-    <state x="2522" y="127" key="CommitChangelistDialog2" timestamp="1591687075091">
+    <state x="2616" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593093325348">
+      <screen x="1920" y="23" width="1920" height="1003" />
+    </state>
+    <state x="2616" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593093325348" />
+    <state x="2522" y="127" key="CommitChangelistDialog2" timestamp="1593185042576">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state x="2652" y="139" key="CommitChangelistDialog2/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1591163663086" />
-    <state x="2522" y="127" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1591687075091" />
-    <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1592402053593">
+    <state x="2522" y="127" key="CommitChangelistDialog2/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593185042576" />
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom" timestamp="1593165408308">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state width="1872" height="336" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185664" />
     <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1591342247652" />
-    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1592402053593" />
-    <state width="1872" height="272" key="GridCell.Tab.0.center" timestamp="1592402053592">
+    <state width="1872" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593165408308" />
+    <state width="1872" height="272" key="GridCell.Tab.0.center" timestamp="1593165408305">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state width="1872" height="336" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185661" />
     <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1591342247651" />
-    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1592402053592" />
-    <state width="1872" height="272" key="GridCell.Tab.0.left" timestamp="1592402053592">
+    <state width="1872" height="272" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593165408305" />
+    <state width="1872" height="272" key="GridCell.Tab.0.left" timestamp="1593165408304">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state width="1872" height="336" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185658" />
     <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1591342247650" />
-    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1592402053592" />
-    <state width="1872" height="272" key="GridCell.Tab.0.right" timestamp="1592402053593">
+    <state width="1872" height="272" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593165408304" />
+    <state width="1872" height="272" key="GridCell.Tab.0.right" timestamp="1593165408305">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state width="1872" height="336" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590057185664" />
     <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1591342247651" />
-    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1592402053593" />
+    <state width="1872" height="272" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593165408305" />
     <state width="1872" height="336" key="GridCell.Tab.1.bottom" timestamp="1590412116885">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -323,10 +337,10 @@
       <screen x="0" y="23" width="1920" height="1003" />
     </state>
     <state x="466" y="163" key="SettingsEditor/0.23.1920.1003/1920.23.1920.1057@0.23.1920.1003" timestamp="1590055910663" />
-    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1592208553085">
+    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1593002298858">
       <screen x="1920" y="23" width="1920" height="1003" />
     </state>
     <state x="2570" y="375" key="com.intellij.ide.util.TipDialog/0.23.1920.1003/1920.23.1920.1057@1920.23.1920.1057" timestamp="1590990872595" />
-    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1592208553085" />
+    <state x="2570" y="357" key="com.intellij.ide.util.TipDialog/0.23.1920.1057/1920.23.1920.1003@1920.23.1920.1003" timestamp="1593002298858" />
   </component>
 </project>
